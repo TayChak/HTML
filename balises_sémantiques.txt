@@ -1,0 +1,7 @@
+<!-- Outil de test des données structurées -->
+// cherchez une page contenant des balises sémantiques et laissez Google vous afficher ce qu’il en a compris 
+https://search.google.com/structured-data/testing-tool
+
+<!-- Schema Generator -->
+// créez vos premières balises sémantiques grâce à un formulaire qui vous affichera le code HTML correspondant.
+https://seoscout.com/tools/schema-generator
