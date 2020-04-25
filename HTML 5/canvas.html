@@ -1,0 +1,24 @@
+<!--  canvas  -->
+<canvas id="dessin" width="640" height="480">
+       Texte pour les navigateurs qui ne supportent pas canvas
+</canvas>
+<!-- Triangle segment par segment -->
+<script>
+       var monCanvas = document.getElementById('dessin');
+       var ctx = monCanvas.getContext('2d');
+       /* couleurs de remplissage et de trait */
+       ctx.fillStyle = "yellowgreen";
+       ctx.strokeStyle = "steelblue";
+       ctx.lineWidth = 2;
+       /* début de tracé */
+       ctx.beginPath();
+       ctx.moveTo(20,20);
+       ctx.lineTo(20,100);
+       ctx.lineTo(70, 100);
+       ctx.lineTo(20,20);
+       ctx.closePath();
+       /* remplissage */
+       ctx.fill();
+      /* couleur de trait */
+      ctx.stroke();
+</script>
